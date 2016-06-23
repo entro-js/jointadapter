@@ -1,0 +1,24 @@
+{
+  "name": "jointadapter",
+  "version": "1.0.0",
+  "description": "Joint Adapter",
+  "main": "joint.adapter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/entro-js/jointadapter.git"
+  },
+  "keywords": [
+    "joint",
+    "jointadapter",
+    "adapter"
+  ],
+  "author": "Magnus Henning",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/entro-js/jointadapter/issues"
+  },
+  "homepage": "https://github.com/entro-js/jointadapter#readme"
+}
