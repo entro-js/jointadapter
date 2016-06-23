@@ -11,6 +11,8 @@
 
 }(this, function (root) {
 
+  var VERSION = '1.0.0';
+
   // Bind adapter to joint instance
   function rebind(joint, adapter) {
     if (typeof joint === 'object' && joint) joint.adapter = adapter;
@@ -73,6 +75,8 @@
       addPreloadPlugin: addPreloadPlugin,
       addPlugin:        addLoadPlugin
     };
+
+    _this.VERSION = VERSION;
   }
 
   JointAdapter.prototype.preload  = preload;
