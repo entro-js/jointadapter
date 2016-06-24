@@ -6,6 +6,17 @@ Adds the ability to load plugins in JointJS
 
 <b>DEMO:</b> https://plnkr.co/wmdVNUlBVFom2l3eYDhC?p=preview
 
+##### Included is a joint adapter plugin that extends support for joint with lodash version >= v4.0
+
+Tested with:
+- lodash: 4.6.1
+- jQuery: 2.2.1
+- Backbone: 1.2.1
+- joint: 0.9.10*
+- jointadapter: 1.0.0
+
+( *Requires adapter version, see comment below)
+
 Steps:
 
 1: Load joint.adapter.js followed by adapters/joint.adapters.lodash.js
